@@ -6,6 +6,4 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
 @HiltViewModel
-class Feature1ViewModel @Inject constructor(
-    val domain1: Domain1
-) : ViewModel()
+class FeatureViewModel @Inject constructor(val domain: Domain1) : ViewModel()

@@ -1,7 +1,6 @@
 package com.example.myapplication
 
 import com.example.domain.Domain1
-import com.example.feature1.Domain1Impl
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
@@ -14,5 +13,5 @@ interface Module {
 
     @Binds
     @ViewModelScoped
-    fun bind(impl: Domain1Impl): Domain1
+    fun bind(impl: com.example.feature1.DomainImpl): Domain1
 }

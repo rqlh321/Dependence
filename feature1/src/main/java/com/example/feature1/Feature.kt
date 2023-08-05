@@ -5,4 +5,4 @@ import androidx.compose.runtime.Composable
 import androidx.hilt.navigation.compose.hiltViewModel
 
 @Composable
-fun Feature1(viewModel: Feature1ViewModel = hiltViewModel()) = Text(viewModel.domain1.text())
+fun Feature1(viewModel: FeatureViewModel = hiltViewModel()) = Text(viewModel.domain.text())
